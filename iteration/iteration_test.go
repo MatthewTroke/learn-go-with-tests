@@ -18,6 +18,7 @@ func ExampleRepeat() {
 	repeated := Repeat("a", 5)
 	fmt.Println(repeated)
 	// Output: aaaaa
+
 }
 
 func BenchmarkRepeat(b *testing.B) {
